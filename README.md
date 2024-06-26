@@ -6,9 +6,6 @@ This is a Spring Boot application that provides a RESTful API for managing movie
 
 - Retrieve a list of movies
 - Get details of a specific movie by IMDB ID
-- Add a new movie
-- Update an existing movie
-- Delete a movie
 - Add a review for a movie
 - Get reviews for a specific movie
 
