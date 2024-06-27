@@ -1,6 +1,6 @@
-# Spring Boot Movies API
+# MovieCritic API
 
-This is a Spring Boot application that provides a RESTful API for managing movie data, including reviews and other related information.
+This is the backend for the MovieCritic application, a web application that allows users to browse and review movies. The backend is built using Spring Boot and provides a RESTful API for managing movie data, including reviews and other related information.
 
 ## Features
 
@@ -27,33 +27,41 @@ This is a Spring Boot application that provides a RESTful API for managing movie
 
 1. Clone the repository:
 
-    ```sh
-    git clone https://github.com/your-username/spring-boot-movies-api.git
-    ```
+   ```sh
+   git clone https://github.com/your-username/moviecritic-backend.git
+   ```
 
 2. Navigate to the project directory:
 
-    ```sh
-    cd spring-boot-movies-api
-    ```
+   ```sh
+   cd moviecritic-backend
+   ```
 
 3. Build the project:
 
-    ```sh
-    ./mvnw clean install
-    ```
+   ```sh
+   ./mvnw clean install
+   ```
 
 4. Run the application:
 
-    ```sh
-    java -jar target/movies-api.jar
-    ```
+   ```sh
+   java -jar target/movies-api.jar
+   ```
 
 The application will start running on `http://localhost:8080`.
 
 ## API Documentation
 
 The API documentation is available at `http://localhost:8080/swagger-ui.html` when the application is running.
+
+## Environment Variables
+
+The application uses the following environment variables:
+
+- `MONGODB_URI`: The connection string for the MongoDB database.
+
+You can set these environment variables in a `.env` file in the project root directory, or set them directly in your system environment variables.
 
 ## Contributing
 
